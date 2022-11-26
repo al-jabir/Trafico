@@ -2,7 +2,6 @@ import Link from "next/link";
 import React from "react";
 
 const Navbar = ({ navData, header }) => {
-  console.log(header);
   return (
     <nav className="flex items-center">
       <ul className="flex gap-[96px]">
