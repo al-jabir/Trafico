@@ -42,7 +42,7 @@ const Header = ({ headerData, navData }) => {
       {/* nav & button wrapper - initially hidden */}
       <div className="hidden lg:flex gap-x-[96px]">
         {/* nav */}
-        <Navbar navData={navData} header={header} />
+        <Navbar navData={navData} headerData={headerData} />
         {/* btn */}
         <button className="btn">{btnText}</button>
       </div>
